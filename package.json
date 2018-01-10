@@ -1,0 +1,26 @@
+{
+  "name": "marko-jest-benchmark",
+  "version": "0.1.0",
+  "description": "Benchmark testing marko component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abiyasa/marko-jest-benchmark"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "marko": "^4.7.4",
+    "rimraf": "^2.6.2"
+  },
+  "scripts": {
+    "start": "npm test",
+    "lint": "eslint ./*.js ./src/**/*.js ./tasks/*.js",
+    "test:jest": "marko test",
+    "clean": "node tasks/clean"
+  }
+}
