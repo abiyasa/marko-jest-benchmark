@@ -495,6 +495,10 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
+flat-colors@^3.3.10:
+  version "3.3.10"
+  resolved "https://registry.yarnpkg.com/flat-colors/-/flat-colors-3.3.10.tgz#22c5caa23fd3224139742dd8ed16081dde5a102c"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"

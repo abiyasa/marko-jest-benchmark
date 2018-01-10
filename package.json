@@ -14,12 +14,13 @@
     "eslint-plugin-import": "^2.8.0"
   },
   "dependencies": {
+    "flat-colors": "^3.3.10",
     "marko": "^4.7.4",
     "rimraf": "^2.6.2"
   },
   "scripts": {
     "start": "npm test",
-    "lint": "eslint ./*.js ./src/**/*.js ./tasks/*.js",
+    "lint": "eslint ./*.js ./components/**/*.js ./tasks/*.js",
     "test:jest": "marko test",
     "clean": "node tasks/clean"
   }
