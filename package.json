@@ -25,8 +25,8 @@
     "start": "npm test",
     "lint": "eslint ./*.js ./components/**/*.js ./tasks/*.js",
     "test": "npm run test:jest",
-    "test:jest": "jest --verbose --no-cache",
-    "test:jest:single": "jest --verbose --no-cache color-picker-header",
+    "test:jest": "jest --no-cache",
+    "test:jest:single": "jest --no-cache color-picker-header",
     "clean": "node tasks/clean"
   },
   "jest": {
