@@ -12,9 +12,8 @@
     "eslint": "^4.15.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
-    "jest": "^22.0.5",
-    "jsdom": "^11.5.1",
-    "marko-jest": "^1.0.0"
+    "jest": "^22.1.4",
+    "marko-jest": "^2"
   },
   "dependencies": {
     "flat-colors": "^3.3.10",
@@ -25,8 +24,10 @@
     "start": "npm test",
     "lint": "eslint ./*.js ./components/**/*.js ./tasks/*.js",
     "test": "npm run test:jest",
-    "test:jest": "jest --no-cache",
-    "test:jest:single": "jest --no-cache color-picker-header",
+    "test:jest": "jest",
+    "test:jest:nocache": "jest --no-cache",
+    "test:jest:single": "jest color-picker-header",
+    "test:jest:single:nocache": "jest --no-cache color-picker-header",
     "clean": "node tasks/clean"
   },
   "jest": {
@@ -45,7 +46,6 @@
       "!**/node_modules/**"
     ],
     "coverageDirectory": ".coverage",
-    "setupTestFrameworkScriptFile": "<rootDir>/test/jest-setup.js",
     "modulePaths": [
       "<rootDir>",
       "<rootDir>/components"
