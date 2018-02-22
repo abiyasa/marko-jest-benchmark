@@ -2094,9 +2094,9 @@ makeerror@1.0.x:
   dependencies:
     tmpl "1.0.x"
 
-marko-jest@^2:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/marko-jest/-/marko-jest-2.0.0.tgz#42079649256a627bbe0e0bf1551ee37ee391f229"
+marko-jest@^3:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/marko-jest/-/marko-jest-3.0.0.tgz#649177cbdeb3d1a4eb3eb669b21fc79c3b9025b3"
 
 marko@^4.7.4:
   version "4.7.4"
